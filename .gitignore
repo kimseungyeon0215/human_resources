@@ -1,0 +1,70 @@
+# -----------------------------
+# 1. General & OS (운영체제 및 에디터)
+# -----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# -----------------------------
+# 2. Python (FastAPI)
+# -----------------------------
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (가상환경)
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Unit Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking (MyPy)
+.mypy_cache/
+
+# Databases (개발용 로컬 DB 무시)
+*.sqlite3
+*.db
+
+# -----------------------------
+# 3. Node.js & SvelteKit
+# -----------------------------
+# Dependencies
+node_modules/
+
+# SvelteKit Build Output (빌드 결과물 및 생성 파일)
+.svelte-kit/
+build/
+package/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite temp files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# -----------------------------
+# 4. Environment Variables (보안 필수!)
+# -----------------------------
+# API 키나 DB 비밀번호가 포함된 파일은 절대 커밋하지 마세요.
+.env
+.env.local
+.env.*.local
+!.env.example
